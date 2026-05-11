@@ -1,3 +1,6 @@
+/**
+ *Submitted for verification at opbnb.bscscan.com on 2024-06-20
+*/
 
 // File: @openzeppelin/contracts/interfaces/draft-IERC6093.sol
 
@@ -907,7 +910,7 @@ contract Claw is ERC20Capped,Ownable,Pausable {
     }
 
     function decimals() override public view virtual returns (uint8) {
-        return 8;
+        return 18;
     }
 
     function pause() onlyOwner external    {
